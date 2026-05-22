@@ -9,11 +9,25 @@ A simple web app built using Flask and SQLite to manage students.
 - Delete Student
 - View Student List
 
-## 🛠️ Tech Stack
-- Flask
-- SQLite
-- HTML
-- CSS
+##  Tech Stack
+
+* **Backend:**  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-plain-wordmark.svg" width="50"/>
+  &nbsp;&nbsp;
+  
+* **Frontend:**  
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html/html-plain-wordmark.svg" width="50"/>
+  &nbsp;&nbsp;
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css/css-plain-wordmark.svg" width="50"/>
+  
+
+  &nbsp;&nbsp;
+* **Database:**  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" width="50"/>
+
+---
 
 ## 🖼️ Project Screenshots
 
