@@ -14,7 +14,7 @@ A simple web app built using Flask and SQLite to manage students.
 * **Backend:**  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50"/>
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-plain-wordmark.svg" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="48" height="48" alt="Flask" />
   &nbsp;&nbsp;
   
 * **Frontend:**  
