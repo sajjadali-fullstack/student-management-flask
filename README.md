@@ -18,11 +18,10 @@ A simple web app built using Flask and SQLite to manage students.
   &nbsp;&nbsp;
   
 * **Frontend:**  
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html/html-plain-wordmark.svg" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" />
   &nbsp;&nbsp;
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css/css-plain-wordmark.svg" width="50"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" />
   
-
   &nbsp;&nbsp;
 * **Database:**  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" width="50"/>
