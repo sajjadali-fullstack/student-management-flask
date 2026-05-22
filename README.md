@@ -1,6 +1,6 @@
 # Student Management System (Flask)
 
-## 📌 Description
+##  Description
 A simple web app built using Flask and SQLite to manage students.
 
 ##  Features
@@ -15,8 +15,15 @@ A simple web app built using Flask and SQLite to manage students.
 - HTML
 - CSS
 
-## 📷 Screenshot
-(Add screenshot here)
+## 🖼️ Project Screenshots
+
+### Student Management System Dashboard
+![Home Page](assets/flask-sms1.png)
+
+### ✏️ Edit Student Page
+![Edit Page](assets/flask-sms2.png)
+
+---
 
 ## ▶️ Run Project
 ```bash
