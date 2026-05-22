@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0b95c7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+hr{
+    width: 50%;
+}
+
+
+/* Form box */
+form {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0e0000;
+}
+
+/* Input fields */
+input {
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background: #286EED;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto 0;
+}
+
+button:hover {
+    background: #219150;
+}
+
+/* Table */
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 0px 10px #070000;
+    border-radius: 30px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+}
+
+/* Action links */
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a[href*="edit"] {
+    background: #b0e60e;
+    color: white;
+    font-weight: 600;
+}
+
+a[href*="delete"] {
+    background: #e74c3c;
+    color: white;
+    font-weight: 600;
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- External CSS -->
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <h1>Add Student</h1>
+
+    <form method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="number" name="age" placeholder="Age" required>
+        <input type="text" name="course" placeholder="Course" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <hr>
+
+    <h2>Student List</h2>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+            <th>Action</th>
+        </tr>
+
+        {% if students %}
+        {% for s in students %}
+        <tr>
+            <td>{{ s.id }}</td>
+            <td>{{ s.name }}</td>
+            <td>{{ s.age }}</td>
+            <td>{{ s.course }}</td>
+            <td>
+                <a href="/edit/{{ s.id }}">Edit</a>
+                |
+                <a href="/delete/{{ s.id }}" onclick="return confirm('Delete this student?')">
+                    Delete
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+        {% else %}
+        <tr>
+            <td colspan="4" style="text-align:center; color:red;">
+                NO RECORD FOUND!
+            </td>
+        </tr>
+        {% endif %}
+
+    </table>
+    
+</body>
+
+</html>
